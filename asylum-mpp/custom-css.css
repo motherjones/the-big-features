@@ -1,0 +1,144 @@
+.full-width .social-container.top {
+     border-bottom: 1px solid #999;
+     max-width: 634px;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .full-width .social-container.top ul {
+     background-color: rgb(179, 192, 177) 
+}
+ .full-width .social-container.top a {
+     background-color: transparent;
+     border: 1px solid #ccc;
+}
+ .full-width .social-container i:hover {
+     color: #fff;
+}
+ .mj-text-cta a {
+     background-image: none;
+     text-decoration: underline;
+     text-shadow: none;
+}
+ .mj-text-cta a:hover {
+     color: #fff 
+}
+ #fullwidth-body .mpp-fullwidth-illustration {
+     position: relative;
+     min-width: 100vw;
+     margin: 0 -50vw -2rem;
+     left: 50%;
+     right: 50%;
+}
+ #fullwidth-body .pullquote-left, #fullwidth-body .pullquote-right {
+     border-top: 0;
+     max-width: 640px;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     color: #9b3f64;
+}
+ .mpp-chapter-intro {
+     position: relative;
+     width: 100vw;
+     margin: 0 -50vw .5rem;
+     left: 50%;
+     right: 50%;
+     background-color: rgb(179, 192, 177);
+     padding: 2rem 1rem 1rem;
+     color: black;
+     margin-bottom: 1rem;
+}
+ .mpp-chapter-intro a {
+     background-image: none;
+     color: black;
+     text-decoration: underline;
+     text-shadow: none;
+}
+ .mpp-chapter-intro a:hover {
+     color: black;
+     text-decoration: none;
+}
+ .mpp-chapter-intro figure {
+     padding-bottom: 0!important;
+     margin-bottom: -.5rem!important;
+}
+ #mpp-chapter-1 {
+     z-index: -1;
+     margin-top: -180px;
+     padding-top: 180px;
+}
+ .mpp-chapter-intro h3.subheader {
+     text-align: center;
+     margin-top: 0;
+}
+ .mpp-chapter-intro figure {
+     padding-bottom: 0;
+}
+ .mpp-chapter-intro .like-p {
+     width: 634px;
+     position: relative;
+     max-width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     flex: 1 0 0px;
+}
+ @media screen and (max-width:768px) {
+     .mpp-chapter-intro .like-p {
+         width: 100%;
+    }
+     .single .entry-header.media-header {
+         margin-bottom:0;
+         background-color:transparent;
+    }
+}
+ .media-header+.wp-caption-text .media-credit {
+     color: #444;
+}
+ .mpp-chart iframe {
+     height: calc(95vh - 70px)!important;
+     min-height: 400px;
+}
+ .mpp-chart figure {
+     width: 100%;
+     max-width: 100%!important;
+     padding: 0;
+}
+ .mpp-chart {
+     max-width: 990px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 2rem 0 1rem 0;
+     margin-bottom: 2rem;
+     display: block;
+     border-top: 1px solid #999;
+     border-bottom: 1px solid #999;
+}
+ .mpp-chart .byline-position {
+     font-family: Mallory, sans-serif;
+     font-size: .9rem;
+}
+ .mpp-chart .caption p {
+     font-size: 1rem;
+     padding-right: 1rem;
+}
+ .mpp-chart .wp-caption-text {
+     display: none;
+     text-align: right;
+     margin-top: -1rem;
+}
+ @media screen and (min-width:768px) {
+     .mpp-chart {
+         display: flex;
+         border: none;
+    }
+     .mpp-chart iframe, .mpp-chart figure {
+         max-width: calc(100% - 318px);
+         padding-left: 1.75rem;
+    }
+     .mpp-chart .caption {
+         max-width: 290px;
+         float: left;
+    }
+}
+ #mj-annotation p.has-audio {
+     background-color: transparent;
+}

@@ -1,0 +1,16 @@
+.mj-read-more-col-1 img {
+     visibility:hidden;
+}
+ .mj-read-more-wrapper:nth-child( even ) .mj-read-more-col-1 {
+     background-image: url(https://www.motherjones.com/wp-content/uploads/2021/06/leave-it_badge.png);
+     background-size: 200px;
+     background-repeat: no-repeat;
+}
+ .mj-read-more-wrapper:nth-child( odd ) .mj-read-more-col-1 {
+     background-image: url(https://www.motherjones.com/wp-content/uploads/2021/06/love-it_badge.png);
+     background-size: 200px;
+     background-repeat: no-repeat;
+}
+ .mj-read-more-expanding .intro {
+     display: none;
+}

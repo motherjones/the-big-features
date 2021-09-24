@@ -1,0 +1,8 @@
+@media screen and (max-width: 820px) {
+     header.entry-header.media-header {
+         min-height: 540px;
+    }
+}
+ .single.title-split #header-text {
+     padding:1rem 1.5rem;
+}

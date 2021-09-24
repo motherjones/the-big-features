@@ -1,0 +1,39 @@
+.gs-map iframe {
+    height:calc(95vh - 70px)!important;
+    min-height:400px;
+}
+.gs-map {
+     border: 1px solid #ccc;
+     padding: 2rem 0 1rem 0;
+     border-left: none;
+     border-right: none;
+     margin-bottom: 2rem;
+}
+ .gs-map .byline-position {
+    font-family: Mallory, sans-serif;
+    font-size: .9rem;
+}
+.gs-map .caption p {
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+ .gs-map .wp-caption-text {
+    display:none;
+    text-align: right;
+    margin-top: -1rem;
+}
+ @media screen and (min-width:768px) {
+     .gs-map iframe {
+        max-width: calc(100% - 318px);
+        margin-left: 1.75rem;
+    }
+     .gs-map .caption {
+         max-width: 290px;
+         float: left;
+    }
+}
+ @media screen and (min-width:768px){
+    .mj-two-up figure {
+        width: 50%;
+    }
+}

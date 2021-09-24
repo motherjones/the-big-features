@@ -1,0 +1,210 @@
+@import url(https://use.typekit.net/ull6kdz.css);
+ .single.title-portrait .entry-header.media-header {
+     max-width: initial;
+}
+ #header-text {
+     margin-top: 92px!important;
+}
+ .postid-925540 #main {
+     padding-top: 1rem;
+}
+ #header-image {
+     display: none;
+}
+ .card:not(.title) section {
+     border:5px solid #FA8062;
+}
+ #fullwidth-body .mj-cards .card.title, #fullwidth-body .mj-cards .card blockquote, #fullwidth-body .mj-cards .card h3.subheader {
+     font-family:balboa, Mallory, sans-serif;
+     font-weight:500;
+}
+ #fullwidth-body .mj-cards .card.title span {
+     color:#FA8062;
+     font-family:Mallory,sans-serif;
+     font-weight:bold;
+}
+ .mj-cards a {
+     text-decoration: underline;
+     text-shadow: none;
+     color: inherit;
+     background-image: none;
+}
+ .single .entry-header {
+     width: 100vw;
+     background-color: #1D1D1B;
+     color: #ffffff;
+     padding-top: 2rem;
+     background-image: url(https://www.motherjones.com/wp-content/uploads/2021/09/MotherJones_bosses_TOP.png?w=1024);
+     background-size: 642px;
+     background-repeat:no-repeat;
+     background-position:top 400px center;
+     margin-bottom: 2rem;
+}
+ @media screen and (min-width: 768px) {
+     .single .entry-header {
+         background-position:top 460px center;
+    }
+}
+ .single .mj-top-flag {
+     border-color:#fff 
+}
+ .entry-header .entry-title{
+     text-transform:uppercase;
+     font-size:5.625rem;
+     font-family:balboa, Mallory, sans-serif;
+     font-weight:500;
+}
+ .entry-header .dateline {
+     color:#fff;
+}
+ .entry-header .dek {
+     max-width: 450px;
+     margin-left: auto;
+     margin-right: auto;
+}
+ header.entry-header:after {
+     content: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+     display: block;
+     width: 100%;
+     height: calc(642px * 4.49);
+     margin-top: calc(642px * .77);
+     background-image: url(https://www.motherjones.com/wp-content/uploads/2021/09/MotherJones_bosses_OFFICE.png?w=1024);
+     background-size: 642px;
+     background-repeat: no-repeat;
+     background-position: top center;
+}
+ .mj-read-more-col-1 {
+     display:block!important;
+     height:auto!important;
+}
+ .mj-read-more-col-2 {
+     width: 100%;
+}
+ .boxed {
+     background-color:#1D1D1B;
+     padding-bottom: 1rem;
+}
+ .order-image:not(.boxed) .mj-thumbnail-link {
+     background-color:#FFD07B;
+}
+ @media screen and (max-width:768px) {
+     .order-image:not(.boxed) .mj-thumbnail-link {
+         max-width: 76%;
+         margin: 0 auto;
+    }
+     .mj-read-more-hed h2 {
+         font-size: 2rem;
+    }
+}
+ .order-image img {
+     border-top:none!important;
+}
+ .order-image:not(.boxed) img {
+     mix-blend-mode: screen;
+     -webkit-filter: grayscale(100%) contrast(200%);
+     filter: grayscale(100%) contrast(200%);
+     opacity: 1;
+}
+ .mj-read-more-hed h2 {
+     font-family: balboa, Mallory, sans-serif;
+     font-weight: 500;
+     line-height: 1.1;
+}
+ .order-image .mj-read-more-hed {
+     text-align: center;
+}
+ .mj-read-more-wrapper span.byline {
+     display:block;
+     color: #FA8062;
+     letter-spacing: .1rem;
+}
+ .order-image .mj-read-more-inner {
+     text-align:center;
+}
+ .boxed .mj-read-more-hed {
+     padding:2rem 2rem 0;
+     margin-bottom:0;
+     background-color:#1D1D1B;
+}
+ .boxed .mj-read-more-hed a {
+     color:#fff;
+     text-shadow:none;
+     width:100%;
+     overflow:hidden;
+}
+ .boxed .mj-read-more-hed img {
+     min-width: 122%;
+     margin-left: -11%;
+}
+ .boxed .mj-read-more-inner {
+     background-color:#1D1D1B;
+}
+ .mj-read-more-wrapper.boxed span.byline{
+     color:#FDB833 
+}
+ .boxed .mj-read-more-col-2 {
+     min-width: 100%;
+     text-align: center;
+}
+ @media screen and (min-width: 992px){
+     .boxed .mj-read-more-inner {
+         padding:0 2rem 0!important;
+    }
+     .order-image .mj-read-more-inner {
+         padding: 1rem 9rem 1rem!important;
+         margin-top: -1rem;
+         margin-bottom: -1rem;
+    }
+     .order-image:not(.boxed) .mj-read-more-hed {
+         padding: 0 9rem!important;
+         margin-bottom: 0!important;
+    }
+}
+ @media screen and (max-width: 690px) {
+     .single .entry-header {
+         background-size: 500px;
+    }
+     header.entry-header:after {
+         background-size: 500px;
+         height: calc(500px * 4.49);
+         margin-top: calc(500px * .77);
+    }
+}
+ @media screen and (max-width: 500px) {
+     .entry-header .entry-title {
+         font-size: 4rem;
+    }
+     .single .entry-header {
+         background-size: 400px;
+    }
+     header.entry-header:after {
+         background-size: 400px;
+         height: calc(400px * 4.49);
+         margin-top: calc(400px * .77);
+    }
+     #fullwidth-body .mj-cards .card.title {
+         font-size: 2rem;
+    }
+}
+ @media screen and (max-width: 400px) {
+     .entry-header .entry-title {
+         font-size: 4rem;
+    }
+     .single .entry-header {
+         background-size: 320px;
+    }
+     header.entry-header:after {
+         background-size: 320px;
+         height: calc(320px * 4.49);
+         margin-top: calc(320px * .77);
+    }
+}
+ .break-byline .byline {
+     max-width: 450px;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .entry-header .dek {
+     max-width: 550px;
+}
