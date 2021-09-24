@@ -21,14 +21,14 @@ This repository includes backups of our customized Big Feature stories with note
 
 ## Commonly requested CSS adjustments
 
-#### Remove the newsletter signup blurb from the top of an article
+### Remove the newsletter signup blurb from the top of an article
 ```
 .mj-text-cta {
     display: none;
 }
 ```
 
-#### Adjust the line break in a headline
+### Adjust the line break in a headline
 Split Layout:
 ```
 .single.title-split #header-text {
@@ -37,7 +37,7 @@ Split Layout:
 ```
 Adjust the left-right padding to widen or narrow the space for the header text.
 
-#### Make an element span the full width of the screen
+### Make an element span the full width of the screen
 ```
 .mpp-fullwidth-illustration {
      position: relative; 		// keeps the element in the document flow
@@ -47,7 +47,7 @@ Adjust the left-right padding to widen or narrow the space for the header text.
 }
 ```
 
-#### Add a custom font to a post
+### Add a custom font to a post
 ```
 @import url(https://use.typekit.net/zvz7sxb.css);
 ```
