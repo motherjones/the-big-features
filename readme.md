@@ -2,7 +2,7 @@
 
 This repository includes backups of our customized Big Feature stories with notes, tips, and resources for accomplishing similar feats of design elsewhere.
 
-### Table of Contents
+## Table of Contents
 - Trump's 100 Days of Deadly Coronavirus Denial - [live link](https://www.motherjones.com/politics/2020/04/trump-coronavirus-timeline/) - [100-days/](100-days/)
 - Trump Killed My American Dream: 8 Stories From the War on Immigrants – [live link](https://www.motherjones.com/politics/2020/10/trump-american-dream-election-2020-war-on-immigrants/) – [american-dream/](american-dream/)
 - One Family’s Escape From Trump’s Border Hell: A 130-Week Diary - [live link](https://www.motherjones.com/politics/2021/06/trump-immigration-legacy-mpp-remain-in-mexico-impact-family/) - [asylum-mpp/](asylum-mpp/)
@@ -19,16 +19,16 @@ This repository includes backups of our customized Big Feature stories with note
 - Superspreader in Chief - [live link](https://www.motherjones.com/politics/2020/10/trump-coronavirus-covid-denial-timeline/) - [superspreader/](superspreader/)
 - Template: _copy [template/](template/) to add a new story to the repo_
 
-### Commonly requested CSS adjustments
+## Commonly requested CSS adjustments
 
-**Remove the newsletter signup blurb from the top of an article**
+#### Remove the newsletter signup blurb from the top of an article
 ```
 .mj-text-cta {
     display: none;
 }
 ```
 
-**Adjust the line break in a headline**
+#### Adjust the line break in a headline
 Split Layout:
 ```
 .single.title-split #header-text {
@@ -37,7 +37,7 @@ Split Layout:
 ```
 Adjust the left-right padding to widen or narrow the space for the header text.
 
-**Make an element span the full width of the screen**
+#### Make an element span the full width of the screen
 ```
 .mpp-fullwidth-illustration {
      position: relative; 		// keeps the element in the document flow
@@ -47,14 +47,14 @@ Adjust the left-right padding to widen or narrow the space for the header text.
 }
 ```
 
-**Add a custom font to a post**
+#### Add a custom font to a post
 ```
 @import url(https://use.typekit.net/zvz7sxb.css);
 ```
 Use a typekit or google font link for this, and put it in the Custom CSS field like any other customizations.
 
 
-### Resources
+## Resources
 - [Specificity - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 - [Inheritance - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
 
