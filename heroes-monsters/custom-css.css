@@ -1,0 +1,30 @@
+.single .incontent-promo-sm {
+     border: none;
+}
+ .incontent-promo .mj-house-newsletter-promo-widget, .incontent-promo .mj-house-subscription-promo-widget, .incontent-promo .mj-house-donation-promo-widget {
+     border-top:1px solid #b6babe;
+     border-bottom:1px solid #ccc;
+}
+ .single .incontent-promo+.mj-read-more-wrapper .mj-read-more-hed {
+     border-top: none;
+     padding-top:0;
+}
+ .mj-read-more-col-2 {
+    width:100%
+}
+ .entry-footer .topic-banner-with-text a.topic-banner-image {
+    background-image:none;
+}
+ .single .dateline {
+     padding-left: 0;
+}
+/*@media screen and (min-width: 992px){
+     .mj-read-more-col-1 {
+         max-width: 100%;
+         width: 100%;
+    }
+     .mj-read-more-hed {
+        text-align:center;
+    }
+}
+*/
